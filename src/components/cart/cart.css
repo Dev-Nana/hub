@@ -1,0 +1,31 @@
+@import url('../../assets/styles/global.css');
+
+.cart_content {
+  background-color: white;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: .5rem;
+}
+
+.cart-text {
+  color: var(--Red);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.cart-image{
+  padding: 1rem 5rem;
+}
+
+.cart-message{
+  font-size: .9rem;
+  font-weight: 500;
+  color: var(--Rose-500);
+}

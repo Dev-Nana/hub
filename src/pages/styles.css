@@ -1,0 +1,31 @@
+/* sm	640px	@media (min-width: 640px) { ... }
+md	768px	@media (min-width: 768px) { ... }
+lg	1024px	@media (min-width: 1024px) { ... }
+xl	1280px	@media (min-width: 1280px) { ... }
+2xl	1536px	@media (min-width: 1536px) { ... } */
+
+/* md	768px	@media (max-width: 768px) { ... } */
+/* muda a partir de 00px*/
+/* para em 768px*/
+
+.home_content {
+  background-color: var(--Rose-100);
+  width: 100vw;
+  padding: 4.3vw 7.5vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-paragrafo {
+  font-weight: 700;
+  font-size: 2.8rem;
+  color: var(--Rose-900);
+}
+
+.home-container{
+  display: flex;
+  flex-direction: column;
+  /* align-items: start;
+  justify-content: space-around; */
+  width: 100%;
+}

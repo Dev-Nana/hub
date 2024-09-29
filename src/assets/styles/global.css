@@ -7,11 +7,11 @@
 
 body {
   margin: 0;
-  padding: 5rem 1rem;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Red Hat Text", serif;
-  background-color: var(--Rose-50);
+  font-family: "Red Hat Text", serif;  
+  background-color: green;
   height: 100%;
 }

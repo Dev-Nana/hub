@@ -1,0 +1,26 @@
+@import url('../../../assets/styles/global.css');
+
+.buttoncard {
+  position: absolute;
+  bottom: -25px;
+  display: flex;
+  align-items: center;
+  padding: .8rem 2.2rem;
+  border: 1px solid var(--Rose-900);
+  border-radius: 2.5rem;
+  font-weight: 500;
+  font-size: clamp(15px, 3vw, 2rem);
+  background-color: var(--White);
+  color: var(--Rose-900);
+}
+
+.buttoncard:hover {
+  color: var(--Red);
+  border: 1px solid var(--Red);
+}
+
+.buttoncard-icon {
+  padding-right: .7rem;
+  width: clamp(33px, 6vw, 6vw);
+}
+

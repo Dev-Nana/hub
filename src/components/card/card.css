@@ -1,0 +1,55 @@
+@import url('../../assets/styles/global.css');
+
+.card_content {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+  overflow: hidden;
+}
+
+/* .card-container {
+  flex-direction: column;
+} */
+
+.card-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-block: 2rem;
+}
+
+.card-image {
+  height: clamp(140px, 60vw, 23rem);
+  overflow: hidden;
+}
+
+.card-image img {
+  width: clamp(140px, 100vw, 40rem);
+  border-radius: 1rem;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .card-menu {
+  background-color: red;
+} */
+
+.card-nome {
+  color: var(--Rose-900);
+  font-size: clamp(15px, 3vw, 2rem);
+  font-weight: 300;
+}
+
+.card-descricao{
+  color: var(--Rose-900);
+  font-size: clamp(18px, 3vw, 2.1rem);
+  font-weight: 600;
+  padding-block: .2rem;
+}
+
+.card-preco{
+  color: var(--Red);
+  font-size: clamp(18px, 3vw, 2.1rem);
+  font-weight: 600;
+  padding-block: .2rem;
+}
