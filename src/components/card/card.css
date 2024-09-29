@@ -2,14 +2,8 @@
 
 .card_content {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 10px;
   overflow: hidden;
 }
-
-/* .card-container {
-  flex-direction: column;
-} */
 
 .card-button {
   position: relative;
@@ -25,14 +19,10 @@
 
 .card-image img {
   width: clamp(140px, 100vw, 40rem);
-  border-radius: 1rem;
+  border-radius: .6rem;
   height: 100%;
   object-fit: cover;
 }
-
-/* .card-menu {
-  background-color: red;
-} */
 
 .card-nome {
   color: var(--Rose-900);
@@ -40,16 +30,52 @@
   font-weight: 300;
 }
 
-.card-descricao{
+.card-descricao {
   color: var(--Rose-900);
   font-size: clamp(18px, 3vw, 2.1rem);
   font-weight: 600;
   padding-block: .2rem;
 }
 
-.card-preco{
+.card-preco {
   color: var(--Red);
   font-size: clamp(18px, 3vw, 2.1rem);
   font-weight: 600;
   padding-block: .2rem;
+}
+
+@media (min-width: 768px) {
+  @import url('../../assets/styles/global.css');
+
+  .card_content {
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card-button {
+    margin-block: 1.5rem;
+  }
+
+  .card-image {
+    height: auto;
+  }
+
+  .card-image img {
+    width: auto;
+    height: auto;
+  }
+
+  .card-nome {
+    font-size: .6rem;
+  }
+
+  .card-descricao {
+    font-size: .6rem;
+    padding-block: 0;
+  }
+
+  .card-preco {
+    font-size: .6rem;
+    padding-block: 0;
+  }
 }

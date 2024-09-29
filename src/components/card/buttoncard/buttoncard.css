@@ -24,3 +24,15 @@
   width: clamp(33px, 6vw, 6vw);
 }
 
+@media (min-width: 768px) {
+  .buttoncard{
+    bottom: -15px;
+    padding: .4rem 1rem;
+    font-size: .6rem;
+  }
+  .buttoncard-icon {
+    padding-right: .1rem;
+    width: 1rem;
+  }
+}
+
