@@ -11,7 +11,7 @@
 
 .cart-text {
   color: var(--Red);
-  font-size: 1.5rem;
+  font-size: clamp(20px, 1.5vw + 2rem, 4.6vw);
   font-weight: 700;
 }
 
@@ -19,15 +19,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .cart-image {
-  padding: 1rem 5rem;
+  padding: 1rem 2rem;
+  width: clamp(220px, 55%, 250px);
 }
 
 .cart-message {
-  font-size: .9rem;
+  font-size: clamp(14px, .9vw + .9rem, 3.5vw);
   font-weight: 500;
   color: var(--Rose-500);
 }
@@ -35,20 +36,20 @@
 @media (min-width: 768px) {
   .cart_content {
     height: min-content;
-    width: 40%;
+    padding: 1.5rem;
+    width: 33%;
     margin: 0;
+  }
 
-  }
   .cart-text {
-    font-size: 1rem;
+    font-size: 1.7vw;
   }
-  
+
   .cart-image {
-    padding: 1rem 3.5rem;
-    width: 200px;
+    width: clamp(190px, 50%, 200px);
   }
 
   .cart-message {
-    font-size: .6rem;
+    font-size: 1vw;
   }
 }

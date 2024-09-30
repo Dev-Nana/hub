@@ -48,7 +48,7 @@
   @import url('../../assets/styles/global.css');
 
   .card_content {
-    gap: 10px;
+    gap: 1.5rem;
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -66,16 +66,16 @@
   }
 
   .card-nome {
-    font-size: .6rem;
+    font-size: 1.2vw;
   }
 
   .card-descricao {
-    font-size: .6rem;
+    font-size: 1.2vw;
     padding-block: 0;
   }
 
   .card-preco {
-    font-size: .6rem;
+    font-size: 1.2vw;
     padding-block: 0;
   }
 }

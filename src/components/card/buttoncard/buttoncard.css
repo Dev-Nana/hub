@@ -25,14 +25,14 @@
 }
 
 @media (min-width: 768px) {
-  .buttoncard{
+  .buttoncard {
     bottom: -15px;
-    padding: .4rem 1rem;
-    font-size: .6rem;
+    padding: 7px 16px;
+    font-size: 1vw;
   }
+
   .buttoncard-icon {
-    padding-right: .1rem;
-    width: 1rem;
+    padding-right: .5vw;
+    width: 1.8vw;
   }
 }
-

@@ -9,7 +9,7 @@ xl	1280px	@media (min-width: 1280px) { ... }
 /* para em 768px*/
 
 .home_content {
-  background-color: var(--Rose-100);
+  background-color: var(--Rose-50);
   width: 100vw;
   padding: 4.3vw 7.5vw;
   display: flex;
@@ -30,14 +30,34 @@ xl	1280px	@media (min-width: 1280px) { ... }
   .home_content {
     padding-inline: 5vw;
     flex-direction: row;
-    gap: 1.2rem;
+    justify-content: space-between;
   }
-
+  
   .home-paragrafo {
     font-size: 1.5rem;
   }
 
   .home-container {
-    width: 60%;
+    width: 65%;
+  }
+}
+
+/* md	768px	@media (max-width: 768px) { ... } */
+/* muda a partir de 00px*/
+/* para em 768px*/
+
+@media (min-width: 1024px) {
+  .home_content {
+    padding: 4.3vw 7.5vw;
+    flex-direction: row;
+    gap: 1.9rem;
+  }
+  
+  .home-paragrafo {
+    font-size: 2.6vw;
+  }
+
+  .home-container {
+    width: 67%;
   }
 }
