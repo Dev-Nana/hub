@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-Hello!  Thank you for visiting this repository
+Hello! Thank you for visiting this repository
 
 # React + Vite
 
